@@ -61,5 +61,5 @@ def test_join_strings():
 
 def test_average():
     assert_equal(skills1.average(ten_numbers), 4.5)
-    assert_equal(skills1.average(numbaz), 1.3333333333333333)
-    assert_equal(skills1.average(buncha_numbers), 103.33333333333333)
+    assert_equal(skills1.average(numbaz), 4/3.0) #1.333333333333
+    assert_equal(skills1.average(buncha_numbers), 103 + (1/3.0)) #103.33333333333

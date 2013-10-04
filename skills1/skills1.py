@@ -80,7 +80,7 @@ def mult_numbers(numbers):
     multiply = 1
 
     for item in numbers:
-        multiply = multiply * item
+        multiply *= item
 
     print multiply
 
@@ -97,11 +97,11 @@ def join_strings(string_list):
 
 # Write a function that takes a list of integers and returns the average (without using the avg method)
 def average(numbers):
-    the_avg = 0
+    the_sum = 0
 
     for item in numbers:
-        the_avg += item
+        the_sum += item
 
-    the_avg = the_avg / float(len(numbers))
+    the_avg = the_sum / float(len(numbers))
 
     return the_avg
